@@ -50,8 +50,9 @@ ul{
 }
 #box4{
     background-color: blue;
+    height: 400px;
 }
 #box5{
-    width: 100%;
-    background-color: aqua;
+    width: 90%;
+    text-align: left;
 }
