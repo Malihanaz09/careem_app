@@ -1,6 +1,10 @@
 *{ padding:0;
     margin: 0%;
 }
+#navbar{
+    position: sticky;
+    top: 20px;
+}
 #box1{
     width: 100%;
     border: 2px;
@@ -318,4 +322,88 @@ ul{
 }
 #eatlink a{
     text-align: left;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 400px;
+    }
+    #box3, #eatlink{
+        width: 300px;
+}
+#box4{
+    height: 200px;
+}
+ #box4 .C{
+    width: 150px;
+    padding: 10px;
+    position: relative;
+    left: 200px;
+    bottom:60px;
+
+}
+#box9 img{
+    width: 200px;
+}
+.box10{
+    width: 400px;
+}
+.goimg{
+    width: 300px;
+}
+.box10 .box11{
+    width: 200px;
+    text-align: center;
+}
+.Question{
+    width: 100%;
+}
+.para{
+    position: relative;
+    left:auto;
+}
+.icon1{
+    position: relative;
+    left: 150px;
+}
+.icon2{
+    position: relative;
+    left: 110px;
+}
+.icon3{
+    position: relative;
+    left: 70px;
+}
+.icon4{
+    position: relative;
+    left: 60px;
+}
+.icon5{
+    position: relative;
+    left: 50px;
+}
+.eatQuestion{
+    width: 600px;
+    height: 600px;
+}
+.getQuestion, .payQuestion{
+    width: 400px;
+}
+.getQuestion .icon1{
+    position: relative;
+    left: 40px;
+}
+.eatimg{
+    width: 200px;
+}
+.ordernow{
+    position: relative;
+left: 20px;
+bottom: 50px;
+}
+.bg-img{
+    width: 400px;
+    height: 300px;
+
+}
 }
